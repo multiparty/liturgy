@@ -1,0 +1,19 @@
+{
+  "protocol": {
+    "partyCount": 4,
+    "computeParties": [1, 2, 3],
+    "inputParties": [4],
+    "zp": null,
+    "preprocessing": false
+  },
+  "jiffPath": "<path_to_jiff_lib>",
+  "outputPath": "<output_dir_for_shares>",
+  "bigNumber": {
+    "use": false
+  },
+  "fixedPoint": {
+    "use": false,
+    "decimalDigits": null,
+    "integerDigits": null
+  }
+}
