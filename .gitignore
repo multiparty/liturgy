@@ -1,3 +1,4 @@
-scripts/myConfig.json
+scripts/share/myConfig.json
+scripts/combine/myConfig.json
 package-lock.json
 node_modules/
