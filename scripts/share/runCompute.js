@@ -2,7 +2,7 @@ const exec = require('child_process').exec;
 const myShellScript =
   exec(
     'node ../../lib/share/compute/compute-party.js ' +
-    '/Users/ben/Desktop/dev/HRI/liturgy/scripts/share/myConfig.json'
+    process.argv[2]
   );
 myShellScript.stdout.on('data', (data)=>{
     console.log(data);
