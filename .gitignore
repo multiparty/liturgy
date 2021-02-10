@@ -2,3 +2,8 @@ scripts/share/myConfig.json
 scripts/combine/myConfig.json
 package-lock.json
 node_modules/
+sandbox/*
+.idea/
+scripts/combine/reconstructed.csv
+venv/
+.DS_Store
