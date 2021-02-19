@@ -1,0 +1,26 @@
+{
+  "protocol": {
+    "header": "a,b,c,keeprows",
+    "allParties": [1, 2, 3],
+    "inputParty": 1,
+    "zp": 16777729,
+    "preprocessing": false,
+    "serverPort": 8080,
+    "serverIp": "localhost",
+    "computationId": "test",
+    "filePath": "/Users/ben/Desktop/dev/HRI/liturgy/scripts/share/in.csv"
+  },
+  "jiffPath": "/Users/ben/Desktop/dev/MPC/jiff/",
+  "outputPath": "/Users/ben/Desktop/dev/HRI/liturgy/scripts/share/",
+  "bigNumber": {
+    "use": false
+  },
+  "fixedPoint": {
+    "use": false,
+    "decimalDigits": 1,
+    "integerDigits": 1
+  },
+  "negativeNumber": {
+    "use": false
+  }
+}
