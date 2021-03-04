@@ -1,6 +1,8 @@
 {
   "protocol": {
-    "header": "a,b,c,keeprows",
+    "inputHeader": true,
+    "outputHeader": "a,b,c,keeprows",
+    "addKeepRowsCol": true,
     "allParties": [1, 2, 3],
     "inputParty": 1,
     "zp": 16777729,
@@ -8,10 +10,10 @@
     "serverPort": 8080,
     "serverIp": "localhost",
     "computationId": "test",
-    "filePath": "/Users/ben/Desktop/dev/HRI/liturgy/scripts/share/in.csv"
+    "filePath": "<path_to_input_file>"
   },
-  "jiffPath": "/Users/ben/Desktop/dev/MPC/jiff/",
-  "outputPath": "/Users/ben/Desktop/dev/HRI/liturgy/scripts/share/",
+  "jiffPath": "<path_to_jiff_lib>",
+  "outputPath": "<output_dir_for_shares>",
   "bigNumber": {
     "use": false
   },

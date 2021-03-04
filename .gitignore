@@ -8,3 +8,5 @@ scripts/share/out_2.csv
 scripts/share/out_3.csv
 
 scripts/combine/reconstructed.csv
+scripts/share/myCfg.json
+scripts/combine/myCfg.json
