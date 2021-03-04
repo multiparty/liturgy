@@ -10,30 +10,30 @@ configuration file structure, which looks like the following:
 ```json
 {
   "protocol": {
-    "inputHeader": bool,                 
-    "outputHeader": <bool, string>,     
-    "addKeepRowsCol": <bool>,               
-    "allParties": <list<int>>,
-    "inputParty": <int>,
-    "zp": <int>,
-    "preprocessing": <bool>,
-    "serverPort": <int>,
-    "serverIp": <string>,
-    "computationId": <string>,
-    "filePath": <string>            // path to input file
+    "inputHeader": "< bool >",                 
+    "outputHeader": "< bool, string >",     
+    "addKeepRowsCol": "< bool >",               
+    "allParties": "< list< int > >",
+    "inputParty": "< int >",
+    "zp": "< int >",
+    "preprocessing": "< bool >",
+    "serverPort": "< int >",
+    "serverIp": "< string >",
+    "computationId": "< string >",
+    "filePath": "< string >"            
   },
-  "jiffPath": <string>,             // path to jiff lib
-  "outputPath": <string>            // path to output file(s)
+  "jiffPath": "< string >",             
+  "outputPath": "< string >",           
   "bigNumber": {
-    "use": <bool>
+    "use": "< bool >"
   },
   "fixedPoint": {
-    "use": <bool>,
-    "decimalDigits": <int>,
-    "integerDigits": <int>
+    "use": "< bool >",
+    "decimalDigits": "< int >",
+    "integerDigits": "< int >"
   },
   "negativeNumber": {
-    "use": <bool>
+    "use": "< bool >"
   }
 }
 ```
