@@ -10,7 +10,7 @@ configuration file structure, which looks like the following:
 ```json
 {
   "protocol": {
-    "inputHeader": <bool>,                 
+    "inputHeader": bool,                 
     "outputHeader": <bool, string>,     
     "addKeepRowsCol": <bool>,               
     "allParties": <list<int>>,
