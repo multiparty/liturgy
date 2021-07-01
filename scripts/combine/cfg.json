@@ -10,7 +10,8 @@
     "serverPort": 8080,
     "serverIp": "localhost",
     "computationId": "test",
-    "filePath": "<path_to_input_file>"
+    "filePath": "<path_to_input_file>",
+    "chunkSize": 1000
   },
   "jiffPath": "<path_to_jiff_lib>",
   "outputPath": "<output_dir_for_file>",
