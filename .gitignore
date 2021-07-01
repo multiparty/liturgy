@@ -2,6 +2,7 @@ package-lock.json
 node_modules/
 .idea/
 .DS_Store
+venv/
 
 scripts/share/out_1.csv
 scripts/share/out_2.csv
